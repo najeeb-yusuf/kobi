@@ -1,0 +1,21 @@
+
+.transition-slide {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.bg-kobi {
+    background-image: url('./kobi_transp.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 5% 10%;
+    /* reduce repeat image transarency */
+    background-color: #000000
+
+}
+
