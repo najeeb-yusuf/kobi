@@ -10,7 +10,7 @@
 }
 
 .bg-kobi {
-    background-image: url('/static/images/kobi_transp.png');
+    background-image: url('static/images/kobi_transp.png');
     background-repeat: repeat;
     background-position: center;
     background-size: 5% 10%;
